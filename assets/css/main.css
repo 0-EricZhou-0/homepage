@@ -2864,6 +2864,16 @@
 
 	dl {
 		margin: 0 0 2em 0;
+		display: grid;
+		grid-template-columns: max-content auto;
+	}
+		
+	dt {
+		grid-column-start: 1;
+	}
+	
+	dd {
+		grid-column-start: 2;
 	}
 
 		dl dt {
